@@ -1,9 +1,11 @@
+package Basics;
+
 // problem
 
 // https://www.codingninjas.com/studio/problems/sum-of-even-odd_624650?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 import java.util.*;
-public class Main {
+public class EvenOdd {
 	
 	public static void main(String[] args) {
 		// Write your code here
