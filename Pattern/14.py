@@ -13,7 +13,7 @@ for i in range(1, n + 1):
         print(j, end=" ")
     
     # Add spaces
-    for k in range(2 * (n - i)):
+    for j in range(2 * (n - i)):
         print(" ", end=" ")
     
     # Print the decreasing sequence
