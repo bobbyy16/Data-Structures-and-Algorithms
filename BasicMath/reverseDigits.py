@@ -7,6 +7,6 @@ revN = 0
 
 while n > 0:
     rem = n % 10
-    revN = (revN * 10) + 1
+    revN = (revN * 10) + rem
     n //= 10
 print (revN)
