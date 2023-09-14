@@ -9,4 +9,4 @@ while n > 0:
 if orginal == ams:
     print(f"{ams} is a amstrong number")
 else:
-    print(f"{ams} is not equal to {orginal} so its not a amstrong number")
+    print(f"{ams} is not equal to {orginal} so its not a Amstrong number")
