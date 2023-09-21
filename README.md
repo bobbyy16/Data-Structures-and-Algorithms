@@ -1,3 +1,3 @@
-# A2Z-DSA
+# Data Structures and Algorithms
 
-These are questions from Striver's A2Z SDE sheet, This repo covers all the questions from that sheet
+This repo covers all the DSA topics + Most asked questions
