@@ -10,6 +10,21 @@ var nCr = function(n, r) {
     return parseInt(res);
 };
 
+const r = 5
+const c = 3
+const find = nCr(r-1, c-1)
+console.log(find);
+
+function pascalTriangleArray(n) {
+    let array = []
+    for (let c = 1; c <= n; c++) {
+      array.push(nCr(n - 1, c - 1));
+    }
+    return array
+}
+
+const arr = pascalTriangleArray(5)
+console.log(arr)
 
 var generate = function(numRows) {
         let ans = [];
