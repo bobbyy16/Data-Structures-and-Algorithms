@@ -1,8 +1,21 @@
-const stdout = require('node:process');
+/*
+ 
+ * * * * *
+ * * * * *
+ * * * * * 
+ * * * * *
+ * * * * * 
+ 
+ */
 
-for (i = 0; i < 5; i++){
-    for(j = 0; j <= i; j++){
-        process.stdout.write('*')
+function one(n) {
+  for (let i = 0; i < n; i++) {
+    let row = "";
+    for (let j = 0; j < n; j++) {
+      row = row + "*";
     }
-    process.stdout.write('\n')
+    console.log(row);
+  }
 }
+
+one(5);
